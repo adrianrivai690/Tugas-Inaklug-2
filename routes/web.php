@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('home');
@@ -18,6 +19,6 @@ Route::get('/artikel', function () {
     return view('artikel');
 })->name('artikel');
 
-Route::get('/hubungi-kami', function () {
-    return view('hubungi-kami');
-})->name('hubungi');
+// Hubungi Kami Routes
+Route::get('/hubungi-kami', [ContactController::class, 'index'])->name('hubungi');
+Route::post('/hubungi-kami', [ContactController::class, 'store'])->name('contact.store');
