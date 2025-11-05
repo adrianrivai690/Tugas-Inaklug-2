@@ -27,19 +27,30 @@
             background: linear-gradient(90deg, #4a1a5c 0%, #2e5a8f 50%, #5b8db8 100%);
             padding: 15px 0;
         }
+        /* Navbar brand and logo tweaks to prevent overlapping text */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
         .navbar-logo {
-            height: 42px; /* ubah sesuai keinginan: 35px–45px */
+            height: 120px; /* smaller logo to avoid pushing nav items */
+            max-height: 56px;
             width: auto;
-            margin-right: 10px;
-            display: inline-block;
-            vertical-align: middle;
+            display: block;
             transition: transform 0.3s ease;
         }
-        .navbar-custom .navbar-brand {
-            font-size: 2rem;
+
+        /* keep brand text on single line and readable */
+        .navbar-brand-text {
+            font-size: 1.25rem;
             font-weight: 700;
             color: white !important;
-            letter-spacing: 2px;
+            white-space: nowrap;
+            line-height: 1;
+            letter-spacing: 1px;
         }
 
         .navbar-custom .nav-link {
@@ -50,6 +61,14 @@
             padding: 10px 0 !important;
             position: relative;
             border-bottom: 3px solid transparent;
+        }
+
+        /* Ensure nav items align center and avoid wrapping when there's space */
+        .navbar-custom .navbar-nav {
+            align-items: center;
+        }
+        .navbar-custom .navbar-collapse {
+            justify-content: flex-end;
         }
 
         .navbar-custom .nav-link:hover {
@@ -181,12 +200,12 @@
 
         /* Article Section */
         .section-title {
-            font-size: 1.5rem;
+            font-size: 2rem;
             font-weight: 700;
             color: #333;
             text-align: center;
             margin: 60px 0 40px;
-            letter-spacing: 1px;
+            letter-spacing: 10px;
         }
 
         .section-content {
@@ -232,35 +251,50 @@
         /* Partner Logos */
         .partner-section {
             background-color: #f8f9fa;
-            padding: 40px 0;
+            padding: 50px 0;
             margin: 60px 0;
         }
 
         .partner-logos {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: stretch;
             flex-wrap: wrap;
-            gap: 40px;
+            gap: 30px;
+        }
+
+        .partner-logo-box {
+            width: 220px;
+            height: 160px;
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border: 1px solid #e0e0e0;
+        }
+
+        .partner-logo-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-color: #2e5a8f;
         }
 
         .partner-logo {
-            height: 200px;
-            max-width: 220px;
+            max-width: 100%;
+            max-height: 100%;
             object-fit: contain;
             opacity: 0.85;
             transition: all 0.3s;
-            border: none !important;  
-            box-shadow: none !important;  
-            background: transparent !important;  
-            padding: 0;
         }
 
-        .partner-logo:hover {
-        opacity: 1;
-        transform: scale(1.05);
-        }
-
+.partner-logo-box:hover .partner-logo {
+    opacity: 1;
+    transform: scale(1.08);
+}
         /* Consultation Box */
         .consultation-box {
             background: linear-gradient(135deg, #4a1a5c 0%, #2e5a8f 100%);
@@ -437,6 +471,14 @@
             .search-box {
                 width: 100%;
                 margin: 15px 0;
+            }
+            /* reduce logo size on small screens so the brand doesn't overflow */
+            .navbar-logo {
+                height: 40px;
+                max-height: 48px;
+            }
+            .navbar-brand-text {
+                font-size: 1.05rem;
             }
         }
     </style>

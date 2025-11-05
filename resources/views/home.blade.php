@@ -103,10 +103,25 @@
     <div class="container">
         <h2 class="section-title">MITRA KAMI</h2>        
         <div class="partner-logos">
-            <img src="{{ asset('images/partners/goaviation.png') }}" alt="GoAviation" class="partner-logo">
-            <img src="{{ asset('images/partners/st-andrews.png') }}" alt="St. Andrew's College" class="partner-logo">
-            <img src="{{ asset('images/partners/ntu-singapore.png') }}" alt="NTU Singapore" class="partner-logo">
-            <img src="{{ asset('images/partners/study-group.png') }}" alt="Study Group" class="partner-logo">
+            <!-- Box 1 -->
+            <div class="partner-logo-box">
+                <img src="{{ asset('images/partners/goaviation.png') }}" alt="GoAviation" class="partner-logo">
+            </div>
+
+            <!-- Box 2 -->
+            <div class="partner-logo-box">
+                <img src="{{ asset('images/partners/st-andrews.png') }}" alt="St. Andrew's College" class="partner-logo">
+            </div>
+
+            <!-- Box 3 -->
+            <div class="partner-logo-box">
+                <img src="{{ asset('images/partners/ntu-singapore.png') }}" alt="NTU Singapore" class="partner-logo">
+            </div>
+
+            <!-- Box 4 -->
+            <div class="partner-logo-box">
+                <img src="{{ asset('images/partners/study-group.png') }}" alt="Study Group" class="partner-logo">
+            </div>
         </div>
     </div>
 </section>

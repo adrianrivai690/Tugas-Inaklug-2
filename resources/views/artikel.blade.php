@@ -25,7 +25,7 @@
             <div class="col-md-6">
                 <a href="#" class="featured-artikel-card">
                     <div class="featured-artikel-image">
-                        <img src="https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?w=600&h=400&fit=crop" alt="Artikel">
+                        <img src="images/layanan kami/korona.png" alt="Artikel">
                     </div>
                     <div class="featured-artikel-text">
                         <h3>Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h3>
@@ -36,8 +36,8 @@
             <!-- Featured Article 2 -->
             <div class="col-md-6">
                 <a href="#" class="featured-artikel-card">
-                    <div class="featured-artikel-image">
-                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop" alt="Artikel">
+                    <div class="featured-artikel-image featured-artikel-image-logo">
+                        <img src="{{ asset('images/layanan kami/htw.png') }}" alt="HTW Berlin">
                     </div>
                     <div class="featured-artikel-text">
                         <h3>Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h3>
@@ -57,7 +57,7 @@
             <!-- Mitra Item 1 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel4.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -68,7 +68,7 @@
             <!-- Mitra Item 2 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel3.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -79,7 +79,7 @@
             <!-- Mitra Item 3 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel2.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -90,7 +90,7 @@
             <!-- Mitra Item 4 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel1.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -101,7 +101,7 @@
             <!-- Mitra Item 5 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel3.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -112,7 +112,7 @@
             <!-- Mitra Item 6 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel2.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -123,7 +123,7 @@
             <!-- Mitra Item 7 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel1.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -134,7 +134,7 @@
             <!-- Mitra Item 8 -->
             <a href="#" class="mitra-artikel-item">
                 <div class="mitra-artikel-image">
-                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=350&fit=crop" alt="Artikel">
+                    <img src="images/layanan kami/artikel4.png" alt="Artikel">
                 </div>
                 <div class="mitra-artikel-content">
                     <h4 class="mitra-artikel-title">Penting! Cara Mudah agar Bisa Kuliah di Luar Negeri dengan Beasiswa</h4>
@@ -186,7 +186,7 @@
         display: flex;
         align-items: center;
         background: linear-gradient(135deg, rgba(74, 26, 92, 0.7) 0%, rgba(46, 90, 143, 0.7) 100%), 
-                    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&h=600&fit=crop');
+                    url('{{ asset("images/layanan kami/artiker.png") }}');
         background-size: cover;
         background-position: center;
     }
@@ -232,10 +232,12 @@
         box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
 
+    /* Featured Image - Default untuk Foto */
     .featured-artikel-image {
         width: 100%;
-        height: 250px;
+        height: 280px;
         overflow: hidden;
+        background: #f8f9fa;
     }
 
     .featured-artikel-image img {
@@ -245,12 +247,35 @@
         transition: transform 0.3s;
     }
 
+    /* Featured Image - Khusus untuk Logo */
+    .featured-artikel-image-logo {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .featured-artikel-image-logo img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
     .featured-artikel-card:hover .featured-artikel-image img {
         transform: scale(1.05);
     }
 
+    .featured-artikel-card:hover .featured-artikel-image-logo img {
+        transform: scale(1.08);
+    }
+
     .featured-artikel-text {
         padding: 20px;
+        background: white;
     }
 
     .featured-artikel-text h3 {
@@ -267,7 +292,7 @@
         font-weight: 700;
         color: #333;
         margin-bottom: 40px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
     }
 
     .mitra-artikel-list {
@@ -381,7 +406,7 @@
         color: #333;
         text-align: center;
         margin-bottom: 40px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
     }
 
     .contact-bottom-card {
@@ -428,8 +453,13 @@
             font-size: 0.9rem;
         }
 
-        .featured-artikel-image {
-            height: 200px;
+        .featured-artikel-image,
+        .featured-artikel-image-logo {
+            height: 250px;
+        }
+
+        .featured-artikel-image-logo {
+            padding: 25px;
         }
     }
 </style>

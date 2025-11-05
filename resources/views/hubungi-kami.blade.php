@@ -142,7 +142,7 @@
         display: flex;
         align-items: center;
         background: linear-gradient(135deg, rgba(74, 26, 92, 0.8) 0%, rgba(46, 90, 143, 0.8) 100%), 
-                    url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=600&fit=crop');
+                    url('images/layanan kami/becak.png');
         background-size: cover;
         background-position: center;
     }
