@@ -65,7 +65,7 @@
                         </div>
 
                         <!-- reCAPTCHA v2 -->
-                        <div class="col-12 mb-4 text-center">
+                        <div class="col-12 mb-4">
                             <div class="g-recaptcha d-inline-block" data-sitekey="{{ config('services.recaptcha.site_key') }}"></div>
                             <div id="recaptchaError" class="text-danger mt-2" style="display: none;">Silakan centang reCAPTCHA terlebih dahulu.</div>
                         </div>
